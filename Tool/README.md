@@ -1,7 +1,4 @@
 # YOLO format dataset 생성 툴
-<div>
-<img src="https://user-images.githubusercontent.com/55565351/90864418-97086f00-e3cb-11ea-9bbc-f180db242b3b.png" width="400" height="300"/>
-</div>
 
 ## 툴 개요
 * YOLO 포멧의 데이터셋을 만들기 위한 툴
@@ -25,7 +22,7 @@ OS | Windows(Anaconda) & Linux
     + train_txt_path: 훈련시킬 모든 이미지에 대한 경로 파일을 저장할 위치 설정
   + 예제 사진
      + <div>
-       <img src="https://user-images.githubusercontent.com/55565351/90866254-991ffd00-e3ce-11ea-8922-ac10ca46c21a.png" width="320" height="240"/>
+       <img src="https://user-images.githubusercontent.com/55565351/91016967-915b9500-e628-11ea-8d64-f6f257d6cf23.png" width="400" height="200"/>
        </div>
 
 * **2nd**
@@ -34,14 +31,25 @@ OS | Windows(Anaconda) & Linux
     + 실행 후 이미지에서 훈련시킬 객체를 마우스를 이용하여 바운딩 박스를 그린다.
   + 예제 사진
      + <div>
-       <img src="https://user-images.githubusercontent.com/55565351/90866254-991ffd00-e3ce-11ea-8922-ac10ca46c21a.png" width="320" height="240"/>
+       <img src="https://user-images.githubusercontent.com/55565351/91017264-f57e5900-e628-11ea-9558-d6e5f16ebccb.png" width="400" height="400"/>
        </div>
 
 * **사용 매뉴얼**
   + 마우스 컨트롤
     + 버튼 | 설명
-       --------- | --------
-       Left | 누른 상태에서 박스를 그린다.
-       Right | 이미지에 대한 바운딩 박스와 레이블 정보를 .txt 파일로 저장
+      --------- | --------
+      Left | 누른 상태에서 박스를 그린다.
+      Right | 이미지에 대한 바운딩 박스와 레이블 정보를 .txt 파일로 저장
  
   + 키보드 컨트롤
+    + 단축키 | 설명 
+      --------- | --------
+      <kbd>a</kbd> | 이전 이미지 불러오기
+      <kbd>d</kbd> | 다음 이미지 불러오기
+      <kbd>w</kbd> | 다음 클래스(레이블) 불러오기
+      <kbd>s</kbd> | 이전 클래스(레이블) 불러오기
+      <kbd>x</kbd> | 바운딩 박스 및 클래스(레이블) 삭제
+      <kbd>Esc</kbd> | 프로그램 종료 및 훈련시킬 모든 이미지에 대한 경로를 .txt 파일로 저장
+      
+  + 주의 사항
+    + OpenCV의 마우스 이벤트를 사용하므로 마우스를 움직여야 효과가 나타난다.
