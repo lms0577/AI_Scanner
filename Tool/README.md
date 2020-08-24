@@ -22,7 +22,7 @@ OS | Windows(Anaconda) & Linux
     + train_txt_path: 훈련시킬 모든 이미지에 대한 경로 파일을 저장할 위치 설정
   + 예제 사진
      + <div>
-       <img src="https://user-images.githubusercontent.com/55565351/91016967-915b9500-e628-11ea-8d64-f6f257d6cf23.png" width="400" height="200"/>
+       <img src="https://user-images.githubusercontent.com/55565351/91016967-915b9500-e628-11ea-8d64-f6f257d6cf23.png" width="320" height="240"/>
        </div>
 
 * **2nd**
