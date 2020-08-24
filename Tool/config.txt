@@ -1,0 +1,4 @@
+classes = 6
+name = chip crispy almond gum coffee pepero
+img_path = D:\My_GitHub\AI_Scanner\Dataset\obj1\
+train_txt_path = .\train.txt
